@@ -52,15 +52,31 @@ public class Hero {
         }
     }
 
+    /**
+     * アクセス制限下にあるフィールド変数を参照するためのアクセサ。
+     * @return　名前のフィールド変数。
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * アクセス制限下にあるフィールド変数を参照するためのアクセサ。
+     * @return　HPのフィールド変数。
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * アクセス制限下にあるフィールド変数を参照するためのアクセサ。
+     * @return　攻撃力のフィールド変数。
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * アクセス制限下にあるフィールド変数を参照するためのアクセサ。
+     * @return　死亡判定のフィールド変数。
+     */
     public boolean getDead(){
         return this.dead;
     }
